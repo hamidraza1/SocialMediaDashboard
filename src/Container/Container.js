@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import classes from "./Container.module.css";
 import ToggleButton from "../Component/ToggleButton/ToggleButton";
+import BigBox from "../Component/BigBox/BigBox";
+import { GrFacebook } from "react-icons/gr";
+import { FaTwitter } from "react-icons/fa";
+import { AiOutlineInstagram, AiFillYoutube } from "react-icons/ai";
 
 class Container extends Component {
   state = {
@@ -16,9 +20,37 @@ class Container extends Component {
   render() {
     return (
       <div className={this.state.DarkMode ? classes.body : null}>
-        <div className={classes.SMDashboard}>Social Media Dashboard</div>
-        <div className={classes.TFDashboard}>Total Followers: 23,004</div>
-        <ToggleButton change={this.Handler} btnTextClr={this.state.DarkMode} />
+        <ToggleButton change={this.Handler} DarkMode={this.state.DarkMode} />
+        <div className={classes.BigBoxes}>
+          <BigBox
+            DarkMode={this.state.DarkMode}
+            year={"1987"}
+            arrowdescription={"12"}
+            icon={<GrFacebook />}
+            boxbandColor={"blue"}
+          />
+          <BigBox
+            DarkMode={this.state.DarkMode}
+            year={"1044"}
+            arrowdescription={"99"}
+            icon={<FaTwitter />}
+            boxbandColor={"blue"}
+          />
+          <BigBox
+            DarkMode={this.state.DarkMode}
+            year={"11k"}
+            arrowdescription={"1099"}
+            icon={<AiOutlineInstagram />}
+            boxbandColor={"green"}
+          />
+          <BigBox
+            DarkMode={this.state.DarkMode}
+            year={"8239"}
+            arrowdescription={"144"}
+            icon={<AiFillYoutube />}
+            boxbandColor={"red"}
+          />
+        </div>
       </div>
     );
   }

@@ -1,0 +1,117 @@
+.bigbox {
+  display: inline-block;
+  margin-top: 50px;
+  border-radius: 9px;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.1);
+  padding-top: 47px;
+  padding-bottom: 29px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: rgb(240, 242, 250);
+  margin-right: 110px;
+  width: 120px;
+}
+.Bigbox {
+  display: inline-block;
+  margin-top: 50px;
+  border-radius: 9px;
+  box-shadow: 5px 5px 5px 3px rgba(0, 0, 0, 0.1);
+  padding-top: 47px;
+  padding-bottom: 29px;
+  padding-left: 70px;
+  padding-right: 70px;
+  background-color: rgb(37, 43, 67);
+  margin-right: 110px;
+  width: 120px;
+}
+.boxband {
+  width: 260px;
+  height: 5px;
+  background-color: blue;
+  margin-left: -70px;
+  margin-top: -45px;
+  margin-bottom: 45px;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+.Boxband {
+  width: 260px;
+  height: 5px;
+  background-color: blue;
+  margin-left: -70px;
+  margin-top: -45px;
+  margin-bottom: 45px;
+  border-top-right-radius: 9px;
+  border-top-left-radius: 9px;
+}
+
+.icon {
+  display: inline-block;
+  color: rgb(19, 140, 245);
+  font-size: 25px;
+  border-radius: 3px;
+}
+.Icon {
+  display: inline-block;
+  color: rgb(19, 140, 245);
+  font-size: 25px;
+  border-radius: 5px;
+}
+.icondescription {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(99, 104, 126);
+  margin-left: 10px;
+}
+.Icondescription {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(139, 151, 198);
+  margin-left: 10px;
+}
+.year {
+  font-weight: bold;
+  font-size: 46px;
+  letter-spacing: 1px;
+}
+.Year {
+  font-weight: bold;
+  font-size: 46px;
+  letter-spacing: 1px;
+  color: white;
+}
+.followers {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: rgb(99, 104, 126);
+}
+
+.Followers {
+  font-weight: lighter;
+  letter-spacing: 2px;
+  font-size: 20px;
+  color: rgb(109, 118, 173);
+}
+.iconarrow {
+  display: inline-block;
+  color: rgb(95, 195, 138);
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.Iconarrow {
+  display: inline-block;
+  color: rgb(72, 162, 99);
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.arrowdescription {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(95, 195, 138);
+}
+.Arrowdescription {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(72, 162, 99);
+}
